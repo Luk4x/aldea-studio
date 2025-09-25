@@ -10,7 +10,8 @@
     "check-types": "tsc --noEmit",
     "script:gen-theme-config": "node ./scripts/generate-theme-config.js && prettier --write \"./src/styles/theme.ts\" --config .prettierrc",
     "clean-up": "rm -rf node_modules && rm -rf .turbo && rm -rf .next",
-    "clean-install": "pnpm run clean-up && pnpm i"
+    "clean-install": "pnpm run clean-up && pnpm i",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^19.1.1",
