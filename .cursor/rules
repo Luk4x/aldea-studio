@@ -1,0 +1,3 @@
+- Tech stack: Typescript, React (Next.js), Tailwind, pnpm.
+- Don't modify .env files directly, tell the user what they should modify if needed.
+- Avoid classes/OOP, prefer use a function programming style.

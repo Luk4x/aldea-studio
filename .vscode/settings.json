@@ -1,0 +1,36 @@
+{
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "eslint.format.enable": true,
+  "eslint.useESLintClass": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "css.lint.duplicateProperties": "warning",
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.diagnosticLevelFlaggedWords": "Hint",
+  "cSpell.hideAddToDictionaryCodeActions": true,
+  "cSpell.suggestionMenuType": "quickFix",
+  "px-to-rem.px-per-rem": 16,
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["cns\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["(?:twMerge|cn)\\(([^)]*)\\)", "(?:[\"'`])([^\"'`]*)(?:[\"'`])"]
+  ],
+  "tailwindCSS.colorDecorators": false,
+  "tailwindCSS.emmetCompletions": true,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "files.eol": "\n",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
