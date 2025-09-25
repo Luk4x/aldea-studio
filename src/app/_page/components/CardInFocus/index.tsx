@@ -23,27 +23,27 @@ export function CardInFocus() {
   return (
     <div className={styles.overlay()}>
       <div className={styles.container()}>
-        <div>
-          <div className={styles.header()}>
-            <button
-              type="button"
-              onClick={() => handleAskNero(false)}
-              className={styles.cancelButton()}
-            >
-              <Icon.Cancel
-                width={24}
-                height={24}
-                color="neutral-900"
-                className={styles.icon()}
-              />
-            </button>
-            <Icon.MoreHorizontal
+        <div className={styles.header()}>
+          <button
+            type="button"
+            onClick={() => handleAskNero(false)}
+            className={styles.cancelButton()}
+          >
+            <Icon.Cancel
               width={24}
               height={24}
               color="neutral-900"
-              className={styles.moreHorizontalIcon()}
+              className={styles.icon()}
             />
-          </div>
+          </button>
+          <Icon.MoreHorizontal
+            width={24}
+            height={24}
+            color="neutral-900"
+            className={styles.moreHorizontalIcon()}
+          />
+        </div>
+        <div className={styles.scrollableContent()}>
           <div className={styles.cardRoot()}>
             <HomeCard.Title title={cardData.title} />
             {cardData.content}

@@ -11,7 +11,8 @@ export function NeroBar() {
   const styles = neroBarStyles();
 
   return (
-    <div className={styles.overlay()}>
+    <>
+      <div className={styles.overlay()} />
       <button
         type="button"
         onClick={() => handleAskNero(true)}
@@ -30,6 +31,6 @@ export function NeroBar() {
           />
         </div>
       </button>
-    </div>
+    </>
   );
 }
